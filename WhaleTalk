@@ -1,0 +1,27 @@
+//Whale talk convertor - using loop and array.
+let input = "Hello World, I love coding.";
+const vowels = ['a','e','i','o','u'];
+resultArray = [];
+
+for (let i = 0; i < input.length; i++) {
+    
+    let inputletter = input[i];
+    //console.log(i);
+    if (inputletter === 'e') {
+        resultArray.push(inputletter);
+    }
+    if (inputletter === 'u') {
+        resultArray.push(inputletter);
+    }
+  for (let j = 0; j < vowels.length; j++) {
+    const vowelsWhaleTalk = vowels[j];
+    //console.log(j);
+    if (inputletter === vowelsWhaleTalk) {
+        //console.log(inputletter);
+        resultArray.push(inputletter);
+        
+    }
+    
+   }
+}
+resultS
